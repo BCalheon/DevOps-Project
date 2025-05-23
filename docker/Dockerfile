@@ -12,7 +12,7 @@ COPY package-lock.json ./
 RUN npm install
 
 # Copie todo o código da aplicação para o container
-COPY ./src ./src
+COPY ./src
 
 # Exponha a porta em que a aplicação vai rodar
 EXPOSE 3000
