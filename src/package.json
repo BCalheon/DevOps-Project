@@ -1,0 +1,12 @@
+{
+  "name": "devops-app",
+  "version": "1.0.0",
+  "description": "Aplicação simples para exemplo de DevOps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
